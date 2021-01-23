@@ -93,6 +93,9 @@
     }
 }
 @media (max-width: 800px) {
+    ..screenNav {
+        display: none;
+    }
     .contact-flex {
         display: none;
     }

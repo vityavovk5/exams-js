@@ -430,6 +430,19 @@ li>a {
     text-decoration: none;
     cursor: pointer;
 }
+.close9 {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close9:hover,
+.close9:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
 a {
     cursor: pointer;
 }
@@ -437,6 +450,7 @@ a {
     width: 300px;
     margin: 0 auto;
 }
+
 .modal-input {
     -webkit-backface-visibility: hidden;
 	background: #fff;
@@ -471,7 +485,54 @@ a {
     background: linear-gradient(150deg, #BE5D28  0%, #FFB187 100%);
 }
 
-.modal1 {
+.modal2 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 100; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.8); /* Black w/ opacity */
+}
+.modal-input {
+    -webkit-backface-visibility: hidden;
+	background: #fff;
+	border: solid 1px #e6eaf3;
+	box-sizing: border-box;
+	border-radius: 24px;
+	outline: 0;
+	padding: 15px 59px;
+	-webkit-appearance: none;
+	outline-offset: 0;
+	width: 100%;
+	text-align: center;
+    font-size: 14px;
+    margin-bottom: 10px;
+}
+.modal2-buttom {
+    background: linear-gradient(180deg, #FFB187 0%, #BE5D28 100%);
+    box-shadow: 0px 10px 16px rgba(0, 0, 0, 0.16);
+    border-radius: 50px;
+    color: #FFFDFC;
+    font-weight: bold;
+    font-size: 13px;
+    line-height: 19px;
+    padding: 15px 59px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-color: transparent;
+    border-width: 0px;
+}
+.modal2-buttom:hover {
+    background: linear-gradient(150deg, #BE5D28  0%, #FFB187 100%);
+}
+
+.modal2 {
     display: none; /* Hidden by default */
     position: fixed; /* Stay in place */
     z-index: 100; /* Sit on top */
@@ -493,3 +554,43 @@ p>a {
  .close2, .close3, .close4, .close5 {
      height: 50px;
  }
+ .screenNav {
+    position: fixed;
+    top: 50%;
+    right: 40px;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: column nowrap;
+    flex-flow: column nowrap;
+}
+.screenNav__point {
+    color: #000000;
+    font-size: 20px;
+    text-decoration: none;
+    -moz-transition: all 0.6s ease-out;
+    -o-transition: all 0.6s ease-out;
+    -webkit-transition: all 0.6s ease-out;
+    }
+    
+.screenNav__point:hover {
+    -webkit-transform: scale(1.55);
+        -moz-transform: scale(1.55);
+        -o-transform: scale(1.55); 
+}
+.news-img {
+    cursor: pointer;
+    opacity: 0.7;
+}
+.news-img:hover {
+    transition: 1s;
+    opacity: 1;
+}
