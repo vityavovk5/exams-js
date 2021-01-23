@@ -1,0 +1,242 @@
+@media (max-width: 1475px) {
+    .back-img2 {
+        display: none;
+    }
+    .back-img1 {
+        display: none;
+    }
+}
+@media (max-width: 1270px) {
+    .slide-bl {
+        width: 300px;
+    }
+    .width-slink {
+        width: 800px;
+    }
+}
+@media (max-width: 1200px) {
+     .burger {
+         display: block;
+     }
+    .header {
+        width: 780px;
+    }
+    .what-we-do {
+        width: 780px;
+    }
+    .width-slink {
+        width: 700px;
+    }
+    .gallery {
+        width: 780px;
+    }
+    .form-div {
+        width: 710px;
+    }
+    .footer {
+        width: 700px;
+    }
+    .nav {
+        display: none;
+    }
+    
+    .front-img1 {
+        position: relative;
+    }
+    .what-img-left {
+        width: 500px;
+        margin: 0 auto 20px;
+    }
+    .front-img1 {
+        width: 100%;
+    }
+    .what-text-right {
+        width: 500px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .what-flex {
+        margin-top: 30px;
+    }
+    .padding-top {
+        padding-top: 100px;
+    }
+    .what-addres {
+        margin-top: 50px;
+    }
+    
+    .front-img2 {
+        position: relative;
+        width: 100%;
+    }
+    .what-img-right {
+        order: -1;
+        width: 500px;
+        margin: 0 auto 20px;
+    }
+    .what-text-left {
+        width: 500px;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .what-flex-2 {
+        margin-top: 30px;
+    }
+    #what {
+        padding: 65px 0 70px;
+    }
+    .gallery-flex-img {
+        width: 100%;
+    }
+    .big-img {
+        width: 100%;
+    }
+}
+@media (max-width: 800px) {
+    .contact-flex {
+        display: none;
+    }
+    .header {
+        width: 430px;
+    }
+    .what-we-do {
+        width: 430px;
+    }
+    .width-slink {
+        width: 430px;
+    }
+    .gallery {
+        width: 430px;
+    }
+    .form-div {
+        width: 430px;
+    }
+    .footer {
+        width: 400px;
+    }
+    h1 {
+        font-size: 38px;
+    }
+    .next-buttom {
+        margin-top: 150px;
+    }
+    .what-img-left {
+        width: 450px;
+    }
+    .what-img-right {
+        width: 450px;
+    }
+    .new-description {
+        font-size: 40px;
+    }
+    #news {
+        padding: 40px 0 40px;
+    }
+    .width-slink {
+        margin-top: 50px;
+    }
+    #gallery {
+        padding: 40px 0 60px;
+    }
+    .gallery-flex {
+        margin-top: 40px;
+    }
+    .form-div {
+        padding: 10px 60px;
+    }
+    .what-main {
+        font-size: 40px;
+    }
+    .left-form {
+        width: 100%;
+    }
+    .right-form {
+        text-align: center;
+        width: 100%;
+    }
+    .flex-form {
+        margin-top: 10px;
+    }
+    .text-left-form {
+        margin-bottom: 5px;
+    }
+    .input-text {
+        width: 300px;
+    }
+    .input-buttom {
+        margin: 0 auto;
+    }
+    .footer-logo {
+        width: 40%;
+    }
+    .logo2 {
+        width: 100%;
+    }
+    .footer-info {
+        font-size: 12px;
+        text-align: center;
+    }
+}
+@media (max-width: 480px) {
+    .header {
+        width: 290px;
+    }
+    .what-we-do {
+        width: 290px;
+    }
+    .width-slink {
+        width: 290px;
+    }
+    .gallery {
+        width: 290px;
+    }
+    .form-div {
+        width: 290px;
+    }
+    .footer {
+        width: 290px;
+    }
+    .contact-flex {
+        display: none;
+    }
+    .padding-top {
+        padding-top: 50px;
+    }
+    .next-buttom {
+        margin-top: 70px;
+    }
+    .what-main {
+        font-size: 36px;
+    }
+    .what-img-left {
+        width: 270px;
+    }
+    .what-img-right {
+        width: 270px;
+    }
+    .desk-3-main {
+        font-size: 34px;
+        margin-bottom: 20px;
+    }
+    .new-description {
+        font-size: 34px;
+    }
+    .form-div {
+        padding: 10px 10px;
+    }
+    .input-text {
+        width: 230px;
+    }
+    .text-left-form {
+        font-size: 15px;
+    }
+    .footer-logo {
+        width: 50%;
+    }
+    .footer-info {
+        font-size: 9px;
+    }
+    .main-logo {
+        width: 190px;
+    }
+}

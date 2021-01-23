@@ -13,3 +13,40 @@ $(document).ready(function(){
         });
     });
 });
+
+
+// менюшка
+var modal1 = document.getElementById("myModal1");
+var btn1 = document.getElementById("myBtn1");
+var span1 = document.getElementsByClassName("close1")[0];
+var span2 = document.getElementsByClassName("close2")[0];
+var span3 = document.getElementsByClassName("close3")[0];
+var span4 = document.getElementsByClassName("close4")[0];
+var span5 = document.getElementsByClassName("close5")[0];
+
+btn1.onclick = function() {
+    modal1.style.display = "block";
+}
+span1.onclick = function() {
+    modal1.style.display = "none";
+}
+span2.onclick = function() {
+    modal1.style.display = "none";
+}
+span3.onclick = function() {
+    modal1.style.display = "none";
+}
+span4.onclick = function() {
+    modal1.style.display = "none";
+}
+span5.onclick = function() {
+    modal1.style.display = "none";
+}
+window.onclick = function(event) {
+    if (event.target == modal1) {
+        modal1.style.display = "none";
+    }
+   
+}
+ 
+ 

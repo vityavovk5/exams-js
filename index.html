@@ -3,8 +3,11 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Monticello</title>
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+
     <link rel="preconnect" href="https://fonts.gstatic.com">
 <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300;1,400;1,600;1,700;1,800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="slick/slick.css">
@@ -18,10 +21,10 @@
                 <div class="logo"><a href="#header"><img src="img/Logo.svg" class="main-logo"></a></div>
                 <div class="nav">
                     <ul>
-                        <li class="nav-link">About Us</li>
-                        <li class="nav-link">projects</li>
-                        <li class="nav-link">news</li>
-                        <li class="nav-link">contact</li>
+                        <li class="nav-link"><a href="#what">About Us</a></li>
+                        <li class="nav-link"><a href="#gallery">projects</a></li>
+                        <li class="nav-link"><a href="#news">news</a></li>
+                        <li class="nav-link"><a href="#to-form">contact</a></li>
                     </ul>
                 </div>
                 <div class="contact-flex">
@@ -29,6 +32,7 @@
                     <div class="contact-logo"><a href="https://twitter.com/?lang=uk" target="_blank"><img src="img/twitter.svg" class="contact-img" alt=""></a> </div>
                     <div class="contact-logo"><a href="https://www.instagram.com/" target="_blank"><img src="img/instagram.svg" class="contact-img" alt=""></a> </div>
                 </div>
+                <div class="burger" id="myBtn1"><img src="img/menu1.svg" alt=""></div>
             </div>
             <h1 class="padding-top bold-face">Simple & mordern</h1>
             <p class="header-dick">We make the world's beautiful every day</p>
@@ -245,7 +249,7 @@
     <footer>
         <div class="footer"> 
         <div class="footer-flex">
-            <div class="footer-logo"><a href="#header"><img src="img/logo2.svg" alt=""></a></div>
+            <div class="footer-logo"><a href="#header"><img src="img/logo2.svg" class="logo2" alt=""></a></div>
             <div class="footer-contact">
                 <a href="https://www.facebook.com/" target="_blank"><img src="img/facebook.svg" alt=""></a>
                 <a href="https://twitter.com/?lang=uk" target="_blank"><img src="img/twitter.svg" alt=""></a>
@@ -255,6 +259,18 @@
         <p class="footer-info">Copyrights © 2017 Monticello&#8195;|&#8195;Made with <img src="img/favorite.svg" alt=""> by Ga Huy</p>
     </div>
     </footer>
+
+    <div id="myModal1" class="modal1">
+        <div class="modal-content">
+            <span class="close1">&times;</span>
+                <p class="close2"><a href="#what">About Us</a></p>
+                <p class="close3"><a href="#gallery">projects</a></p>
+                <p class="close4"><a href="#news">news</a></p>
+                <p class="close5"><a href="#to-form">contact</a></p>
+            
+        </div>
+    </div>
+
     <script src="js/main.js"></script>
     
 <script src="slick/slick.js"></script>
@@ -268,6 +284,23 @@
       autoplay: true,
       autoplaySpeed: 4000,
       speed: 1500,
+      responsive: [
+            {
+              breakpoint: 1270,
+              settings: {
+                slidesToShow: 2,
+              }
+            },
+            {
+              breakpoint: 801,
+              settings: {
+                slidesToShow: 1,
+                arrows: false,
+                autoplay: false,
+              }
+            },
+            
+          ]
     });
 
 </script>
