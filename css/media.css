@@ -93,7 +93,7 @@
     }
 }
 @media (max-width: 800px) {
-    ..screenNav {
+    .screenNav {
         display: none;
     }
     .contact-flex {
