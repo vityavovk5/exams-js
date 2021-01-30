@@ -445,6 +445,8 @@ li>a {
 }
 a {
     cursor: pointer;
+    text-decoration: none;
+    color: white;
 }
 .mobile-logo {
     width: 300px;
